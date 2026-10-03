@@ -21,6 +21,6 @@ i have to say, `apm unpack` is basically the same as `apm install` just that it 
 because this is for a multitude of packages, you can use `:` and then the name of a type of package (e.g. `:python`). if you don't specify the package type, it will try to find the package and if there are duplicates it will tell you. also, the package type comes before the package type.  
 # requesting a package
 if you want to contribute and add a package, then go ahead. i'll happily accept any pull requests.  
-packages are in the `lib` folder, and inside it there are the different categories. put it in the respective category of your package.  
+packages are in the `lib` folder, and inside it there are the different categories. put it in the respective category of your package. *(you can make new categories if your package doesn't fit any of 'em. you can also put it into the root of the folder, if you don't want to make a new category.)*  
 after that, create a pull request, put your fork in there, and just wait when i pass by, i guess.  
 ok that's it. bye have a good day.  
