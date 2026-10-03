@@ -19,4 +19,8 @@ ok so, to install and uninstall you use `apm install` and `apm remove` or `apm u
 to pack, you use `apm pack` and then the path to a folder to pack. it will put the files that are in that folder into a `.zip`. to unpack, you use `apm unpack` and then the path to the `.zip`.  
 i have to say, `apm unpack` is basically the same as `apm install` just that it puts it in a folder in the current directory rather than installing it in the actual installation directory.  
 because this is for a multitude of packages, you can use `:` and then the name of a type of package (e.g. `:python`). if you don't specify the package type, it will try to find the package and if there are duplicates it will tell you. also, the package type comes before the package type.  
-ok that's it. bye have a good day.
+# requesting a package
+if you want to contribute and add a package, then go ahead. i'll happily accept any pull requests.  
+packages are in the `lib` folder, and inside it there are the different categories. put it in the respective category of your package.  
+after that, create a pull request, put your fork in there, and just wait when i pass by, i guess.  
+ok that's it. bye have a good day.  
